@@ -13,13 +13,13 @@ adb shell pm uninstall -k --user 0 com.huawei.retaildemo
 echo "--- 2. Removing (some) Google apps ---"
 adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.sheets
-adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.slides 
+adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.slides
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.docs
-adb shell pm uninstall -k --user 0 com.google.android.apps.books 
+adb shell pm uninstall -k --user 0 com.google.android.apps.books
 adb shell pm uninstall -k --user 0 com.google.android.apps.maps
 adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon # Google Duo
 adb shell pm uninstall -k --user 0 com.google.android.apps.cloudprint
-adb shell pm uninstall -k --user 0 com.google.android.apps.photos 
+adb shell pm uninstall -k --user 0 com.google.android.apps.photos
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs # Google Drive
 adb shell pm uninstall -k --user 0 com.google.android.feedbackDogeSoftware/StarterDebloater
 adb shell pm uninstall -k --user 0 com.google.android.play.games
@@ -72,7 +72,7 @@ adb shell pm uninstall -k --user 0 com.huawei.browser
 adb shell pm uninstall -k --user 0 com.huawei.hifolder # AppAdvisor
 adb shell pm uninstall -k --user 0 com.huawei.contactscamcard
 adb shell pm uninstall -k --user 0 com.huawei.health
-adb shell pm uninstall -k --user 0 com.huawei.compass 
+adb shell pm uninstall -k --user 0 com.huawei.compass
 adb shell pm uninstall -k --user 0 com.huawei.KoBackup
 adb shell pm uninstall -k --user 0 com.huawei.android.tips
 adb shell pm uninstall -k --user 0 com.huawei.himovie.overseas
@@ -93,6 +93,7 @@ adb shell pm uninstall -k --user 0 com.huawei.powergenie # Huawei PowerGenie; an
 adb shell pm uninstall -k --user 0 com.huawei.hitouch # HiTouch
 adb shell pm uninstall -k --user 0 com.huawei.android.karaoke # What is this even lmao
 adb shell pm uninstall -k --user 0 com.huawei.intelligent # What is this even lmao #2
+adb shell pm uninstall -k --user 0 com.huawei.android.launcher
 
 echo "--- 5. Removing Samsung bloatware ---"
 adb shell pm uninstall -k --user 0 com.samsung.svoice.sync
